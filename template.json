@@ -1,0 +1,77 @@
+{
+  "defaultMessage": "Welcome to the monthly Nilkanth Karyakar Newsletter for all Bal and Kishore karyakars!",
+  "title": "Nilkanth Newsletter",
+  "subtitle": "October 2021",
+  "headerImage": "https://baps.box.com/shared/static/ssk1ik5vwgzj81fp2ba94go4uaecqavn.jpg",
+  "content": [
+    {
+      "type": "content",
+      "title": "Summer Shibir",
+      "text": [
+        "Over the month of September, regions across North America hosted Bal-Balika and Kishore-Kishori Summer Shibir 2021. Taking part via both in-person and online mediums, delegates learned about the Hindu concept of guru bhakti through common sessions and breakout rooms. Despite the restrictions posed by ongoing pandemic, hundreds of karyakars banded together to make this wonderful event possible. Whether it was being a group lead, a video editor, or stage manager it was thanks to the hard work of karyakars such as yourselves that balaks and kishores were able to experience summer shibir again. The seva done by you and your fellow BK karyakars is guru bhakti in of itself. Remember the moments you learned alongside your delegates in summer shibir and continue to perform your seva with the intent of offering guru bhakti.",
+        "Bal-Balika Shibir Recap: <a href=\"https://youtu.be/cX0Cf-eLKZ4\" target=\"_blank\">https://youtu.be/cX0Cf-eLKZ4</a>"
+      ],
+      "images": [
+        "https://baps.box.com/shared/static/qx6xm1njecubh4tbojhjr4oy7dfv2fgd.jpg",
+        "https://baps.box.com/shared/static/b213x8c35kd1c9nt1jzsj47etiw4u0si.jpg",
+        "https://baps.box.com/shared/static/i4ctogw4bb9pztbth3iyn54mqghp64y4.jpg",
+        "https://baps.box.com/shared/static/d63d6ip3ufjycu4n9ddsb1c4ki1ea24x.jpg",
+        "https://baps.box.com/shared/static/nnuiouv2d05jxb010shpfa9lmtgf2uvj.jpg",
+        "https://baps.box.com/shared/static/2ir2p66ma7tu94his9xw78tvs3r73jj9.jpg"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "highlight-card",
+      "title": "Bird's Eye",
+      "sections": [
+        {
+          "title": "Monthly Karyakar Theme",
+          "content": "Smruti of Bhagwan and the Guru"
+        },
+        {
+          "title": "Kishore-Kishori Chosar",
+          "content": "Premi Janne Vash Pataliyo"
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "content",
+      "title": "Satsant Diksha",
+      "heroImageBottom": "https://baps.box.com/shared/static/kdvf3bhzsbd5kf7cqb34uvgyapuxutb3.jpg",
+      "text": [
+        "In Satsang Diksha shloka 244, Mahant Swami Maharaj elaborates on one method through which we can strengthen our jodaan with Maharaj and Swami. By celebrating festivals like Swaminarayan Jayanti, we learn more about the life and karya of Bhagwan. By celebrating festivals like Guru Purnima, we better understand the mahima of our guru. In all, festivals give us a jolt of motivation and understanding to propel us on our Satsang sadhana. This increased understanding and connection to Satsang that we experience by celebrating festivals also helps us develop our love for Bhagwan and the Satpurush.",
+        "Summer Shibirs can be considered a form of such celebrations. In Summer Shibir 2021, we explored what it means to perform guru bhakti by doing abhyas of Mahant Swami Maharaj’s life. In this way, diving deep into Mahant Swami Maharaj’s life helped us both realize how to perform pure guru bhakti and develop our love for Him. The seva performed by our karyakars in putting together this shibir at a local level was one of the reasons Summer Shibir 2021 was such a success. Indeed, this seva not only helped our balaks, balikas, kishores, and kishoris strengthen their connection with Maharaj and Swami, but it also was a form of a guru bhakti on the part of our karyakars. Let us strive to maintain that this same level of bhakti and seva as we prepare for our local Diwali celebrations!"
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "content",
+      "title": "The Power of Smruti",
+      "heroImageTop": "https://baps.box.com/shared/static/63mv2v1nvb82ewhl3woxgo15n9qganed.jpg",
+      "text": [
+        "Yogibapa was traveling from Ahmedabad to Mumbai by train and there was a stop scheduled in Anand. Upon hearing of this, Vinubhai made his way to the train station by 10:30 PM when Yogibapa got out of his train to meet with haribhakto. However, due to his reserved nature, Vinubhai stayed leaning against a wall doing darshan from afar. It was only when Mathurkaka told Yogibapa that Vinubhai came to do darshan that the guru and shishya met directly that day. Yogibapa made his way to Vinubhai and blessed him with dhaba; he then gave ashirvad and soon after got back on the train as Vinubhai gazed fixedly at his guru’s murti savouring the divine moment. The young Vinubhai would continue to do so for over a month by coming back to the same spot at the Anand train station and joyfully reminisce this smruti.",
+        "The power of Swamishri's smruti allowed him to revisit this moment firsthand and experience the true anand and peace he felt on that divine day over and over again. We too can experience this bliss by actively remembering powerful moments or prasangs of our guru and do smruti. "
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "content",
+      "title": "To Attain Wisdom",
+      "heroImageTop": "https://baps.box.com/shared/static/lr371l7gyig605zadvq4wt7faecyjiwk.jpg",
+      "text": [
+        "To attain wisdom, approach the enlightened guru who fully understands me (Bhagwan). Bow to him, learn from him, and serve him."
+      ],
+      "source": "Bhagwat Gita 4.43"
+    }
+  ]
+}

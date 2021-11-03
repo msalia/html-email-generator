@@ -1,0 +1,696 @@
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&amp;family=Lora:ital@0;1&amp;family=Merienda&amp;family=Roboto:wght@300;400;500&amp;display=swap" rel="stylesheet">
+    <title>Nilkanth</title>
+    <style>
+      .html-body {
+        background-color: #fff;
+        font-family: sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%
+      }
+
+      table {
+        border-collapse: separate;
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+        width: 100%
+      }
+
+      table td {
+        font-family: sans-serif;
+        font-size: 14px;
+        vertical-align: top
+      }
+
+      .body {
+        background-color: #fff;
+        width: 100%
+      }
+
+      .container {
+        display: block;
+        margin: 0 auto !important;
+        max-width: 800px;
+        padding: 10px;
+        width: 800px
+      }
+
+      .content {
+        box-sizing: border-box;
+        display: block;
+        margin: 0 auto;
+        padding: 10px
+      }
+
+      .main {
+        background: #fff;
+        border-radius: 3px;
+        width: 100%
+      }
+
+      .wrapper {
+        box-sizing: border-box;
+        padding: 0
+      }
+
+      .content-block {
+        padding-bottom: 10px;
+        padding-top: 10px
+      }
+
+      .footer {
+        clear: both;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%
+      }
+
+      .footer a,
+      .footer p,
+      .footer span,
+      .footer td {
+        color: #999;
+        font-size: 12px;
+        text-align: center
+      }
+
+      .h1,
+      .h2,
+      .h3,
+      .h4 {
+        color: #000;
+        font-family: Alice;
+        font-weight: 400;
+        line-height: 1.4;
+        margin: 0;
+        margin-bottom: 30px
+      }
+
+      .h1 {
+        font-size: 35px;
+        font-weight: 300;
+        text-transform: capitalize
+      }
+
+      .ol,
+      .p,
+      .ul {
+        font-family: Lora;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+        margin-bottom: 15px
+      }
+
+      .ol li,
+      .p li,
+      .ul li {
+        list-style-position: inside;
+        margin-left: 5px
+      }
+
+      .a {
+        display: block;
+        color: rgba(0, 0, 0, .84);
+        font-family: Roboto;
+        font-size: 14px;
+        text-decoration: none
+      }
+
+      .a:hover {
+        text-decoration: underline
+      }
+
+      .p:last-child {
+        margin: 0
+      }
+
+      .last {
+        margin-bottom: 0
+      }
+
+      .first {
+        margin-top: 0
+      }
+
+      .align-center {
+        text-align: center
+      }
+
+      .align-right {
+        text-align: right
+      }
+
+      .align-left {
+        text-align: left
+      }
+
+      .align-justify {
+        text-align: justify
+      }
+
+      .clear {
+        clear: both
+      }
+
+      .mt0 {
+        margin-top: 0
+      }
+
+      .mb0 {
+        margin-bottom: 0
+      }
+
+      .preheader {
+        color: transparent;
+        display: none;
+        height: 0;
+        max-height: 0;
+        max-width: 0;
+        opacity: 0;
+        overflow: hidden;
+        mso-hide: all;
+        visibility: hidden;
+        width: 0
+      }
+
+      .powered-by a {
+        text-decoration: none
+      }
+
+      hr {
+        border: 0;
+        border-bottom: 1px solid #f6f6f6;
+        margin: 20px 0
+      }
+
+      .wide {
+        display: block
+      }
+
+      .tall {
+        display: none
+      }
+
+      @media only screen and (max-width:800px) {
+        table[class=body] .h1 {
+          font-size: 28px !important;
+          margin-bottom: 10px !important
+        }
+
+        table[class=body] .a,
+        table[class=body] .ol,
+        table[class=body] .p,
+        table[class=body] .span,
+        table[class=body] .td,
+        table[class=body] .ul {
+          font-size: 16px !important
+        }
+
+        table[class=body] .article,
+        table[class=body] .wrapper {
+          padding: 0 !important
+        }
+
+        table[class=body] .content {
+          padding: 0 !important
+        }
+
+        table[class=body] .container {
+          padding: 0 !important;
+          width: 100% !important
+        }
+
+        table[class=body] .main {
+          border-left-width: 0 !important;
+          border-radius: 0 !important;
+          border-right-width: 0 !important
+        }
+
+        table[class=body] .btn table {
+          width: 100% !important
+        }
+
+        table[class=body] .btn a {
+          width: 100% !important
+        }
+
+        table[class=body] .img-responsive {
+          height: auto !important;
+          max-width: 100% !important;
+          width: auto !important
+        }
+
+        .header-title {
+          font-size: 30px !important;
+          line-height: 34px !important
+        }
+
+        .header-subtitle {
+          font-size: 18px !important;
+          line-height: 22px !important
+        }
+
+        table[class=body] .p.icon-image-title {
+          font-size: 20px !important
+        }
+      }
+
+      @media only screen and (max-width:600px) {
+        .wide {
+          display: none !important
+        }
+
+        .tall {
+          display: block !important
+        }
+      }
+
+      @media all {
+        .ExternalClass {
+          width: 100%
+        }
+
+        .ExternalClass,
+        .ExternalClass div,
+        .ExternalClass font,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass td {
+          line-height: 100%
+        }
+
+        .apple-link a {
+          color: inherit !important;
+          font-family: inherit !important;
+          font-size: inherit !important;
+          font-weight: inherit !important;
+          line-height: inherit !important;
+          text-decoration: none !important
+        }
+
+        #MessageViewBody a {
+          color: inherit;
+          text-decoration: none;
+          font-size: inherit;
+          font-family: inherit;
+          font-weight: inherit;
+          line-height: inherit
+        }
+
+        .btn-primary table td:hover {
+          background-color: #34495e !important
+        }
+
+        .btn-primary a:hover {
+          background-color: #34495e !important;
+          border-color: #34495e !important
+        }
+      }
+    </style>
+    <style>
+      .p,
+      li {
+        font-family: Lora;
+        font-size: 18px;
+        line-height: 24px
+      }
+
+      .carousel-image,
+      .divider,
+      .half-image,
+      .icon-image,
+      .image,
+      .simple-image {
+        border-radius: 10px;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 24px;
+        border: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%
+      }
+
+      .icon-image {
+        display: inline-block;
+        height: 50px !important;
+        width: 50px !important;
+        margin-right: 12px
+      }
+
+      .icon-image-title {
+        font-weight: 700;
+        font-size: 24px
+      }
+
+      .carousel-image,
+      .image {
+        width: 100%
+      }
+
+      .divider {
+        margin: 24px auto 0
+      }
+
+      .half-image,
+      .half-text {
+        width: 376px
+      }
+
+      .carousel-image {
+        margin: 0
+      }
+
+      .carousel-image-wrapper {
+        margin: 12px 0
+      }
+
+      .carousel {
+        background-color: #ecf0f1;
+        border-radius: 10px
+      }
+
+      .header {
+        margin: 20px 0 12px
+      }
+
+      .section-header {
+        color: rgba(0, 0, 0, .84);
+        font-family: Roboto;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        font-size: 14px;
+        padding: 8px 0
+      }
+
+      .read-marker {
+        color: rgba(0, 0, 0, .54);
+        font-family: Roboto;
+        font-size: 14px;
+        text-align: right
+      }
+
+      .header-title {
+        display: block;
+        font-family: Alice;
+        font-size: 40px;
+        line-height: 44px;
+        margin: 0
+      }
+
+      .header-subtitle {
+        color: rgba(0, 0, 0, .54);
+        display: block;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px
+      }
+
+      .quote-spacing {
+        box-sizing: border-box;
+        border-left: 4px solid #1abc9c;
+        margin: 30px 24px 0;
+        padding-left: 20px
+      }
+
+      .quote {
+        box-sizing: border-box;
+        font-family: Merienda;
+        font-size: 24px;
+        line-height: 28px
+      }
+
+      .half-spacing-bottom {
+        margin-bottom: 12px
+      }
+
+      .half-spacing-top {
+        margin-top: 12px
+      }
+
+      .spacing-top {
+        margin-top: 24px
+      }
+
+      .no-spacing-top {
+        margin-top: 0
+      }
+
+      .no-spacing-bottom {
+        margin-bottom: 0
+      }
+
+      .no-margin {
+        margin: 0
+      }
+
+      .spacing-right {
+        margin-right: 24px
+      }
+
+      .footer {
+        margin-top: 24px
+      }
+
+      .border-top,
+      .footer,
+      .inline-divider-top {
+        border-top: 1px solid rgba(0, 0, 0, .1)
+      }
+
+      .highlight-card {
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #1abc9c;
+        color: #ffffff !important;
+        padding: 4px 12px
+      }
+
+      .card-title {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        margin-bottom: 8px
+      }
+
+      .input {
+        position: absolute;
+        display: none !important;
+        visibility: hidden !important
+      }
+
+      .picker-pill {
+        background-color: #bdc3c7;
+        border-radius: 6px;
+        padding: 6px;
+        display: inline-block;
+        margin: 4px
+      }
+
+      .hero-link {
+        display: inline-block;
+        background-color: #3498db;
+        border-radius: 4px;
+        box-sizing: border-box;
+        padding: 12px;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        width: 100%
+      }
+
+      .two-col-table-image-cell {
+        width: 40%
+      }
+
+      .two-col-table-text-cell {
+        width: 60%
+      }
+
+      .inline-divider-top {
+        padding-top: 24px
+      }
+
+      .highlight-title {
+        background-color: #fff1cc;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding: 8px 12px;
+        width: 100%
+      }
+
+      .profile td {
+        vertical-align: middle
+      }
+
+      .mugshot {
+        height: 100px;
+        margin: 0;
+        width: 100px
+      }
+
+      .text-img-title {
+        color: #778899;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 700
+      }
+
+      .text-section-header {
+        border-bottom: 1px solid #d3d3d3;
+        width: 100%
+      }
+    </style>
+  </head>
+
+  <body class="html-body"><span class="preheader">Welcome to the monthly Nilkanth Karyakar Newsletter for all Bal and Kishore karyakars!</span>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
+      <tbody>
+        <tr>
+          <td style="width: 16px;">&nbsp;</td>
+          <td class="container">
+            <div class="content">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="main">
+                <tbody>
+                  <tr>
+                    <td class="section-header">
+                      <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td>Nilkanth Newsletter</td>
+                            <td class="read-marker">October 2021</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="image spacing-top" src="https://baps.box.com/shared/static/ssk1ik5vwgzj81fp2ba94go4uaecqavn.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="header">
+                        <p class="header-title">Summer Shibir</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="p text">Over the month of September, regions across North America hosted Bal-Balika and Kishore-Kishori Summer Shibir 2021. Taking part via both in-person and online mediums, delegates learned about the Hindu concept of guru bhakti through common sessions and breakout rooms. Despite the restrictions posed by ongoing pandemic, hundreds of karyakars banded together to make this wonderful event possible. Whether it was being a group lead, a video editor, or stage manager it was thanks to the hard work of karyakars such as yourselves that balaks and kishores were able to experience summer shibir again. The seva done by you and your fellow BK karyakars is guru bhakti in of itself. Remember the moments you learned alongside your delegates in summer shibir and continue to perform your seva with the intent of offering guru bhakti.</p>
+                      <p class="p text">Bal-Balika Shibir Recap: <a href="https://youtu.be/cX0Cf-eLKZ4" target="_blank">https://youtu.be/cX0Cf-eLKZ4</a></p><img class="image spacing-top" style="undefined" src="https://baps.box.com/shared/static/qx6xm1njecubh4tbojhjr4oy7dfv2fgd.jpg"><img class="image spacing-top" style="undefined" src="https://baps.box.com/shared/static/b213x8c35kd1c9nt1jzsj47etiw4u0si.jpg"><img class="image spacing-top" style="undefined" src="https://baps.box.com/shared/static/i4ctogw4bb9pztbth3iyn54mqghp64y4.jpg"><img class="image spacing-top" style="undefined" src="https://baps.box.com/shared/static/d63d6ip3ufjycu4n9ddsb1c4ki1ea24x.jpg"><img class="image spacing-top" style="undefined" src="https://baps.box.com/shared/static/nnuiouv2d05jxb010shpfa9lmtgf2uvj.jpg"><img class="image spacing-top" style="margin-bottom: 0px" src="https://baps.box.com/shared/static/2ir2p66ma7tu94his9xw78tvs3r73jj9.jpg">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="divider" src="https://baps.box.com/shared/static/akhyu9y1nlu11g8kcmk5zhop7xllztqw.png"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="highlight-card spacing-top">
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="12">
+                          <tbody>
+                            <tr>
+                              <td class="card-title" style="color: #fff;">BIRD'S EYE</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p class="p" style="margin-bottom: 0; color: #fff;"><b>Monthly Karyakar Theme</b></p>
+                                <p class="p" style="color: #fff;">Smruti of Bhagwan and the Guru</p>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p class="p" style="margin-bottom: 0; color: #fff;"><b>Kishore-Kishori Chosar</b></p>
+                                <p class="p" style="color: #fff;">Premi Janne Vash Pataliyo</p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="divider" src="https://baps.box.com/shared/static/r4ldi7alt6a6jg2k39wc27muh9szjhje.png"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="header">
+                        <p class="header-title">Satsant Diksha</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="image spacing-bottom" src="https://baps.box.com/shared/static/kdvf3bhzsbd5kf7cqb34uvgyapuxutb3.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="p text">In Satsang Diksha shloka 244, Mahant Swami Maharaj elaborates on one method through which we can strengthen our jodaan with Maharaj and Swami. By celebrating festivals like Swaminarayan Jayanti, we learn more about the life and karya of Bhagwan. By celebrating festivals like Guru Purnima, we better understand the mahima of our guru. In all, festivals give us a jolt of motivation and understanding to propel us on our Satsang sadhana. This increased understanding and connection to Satsang that we experience by celebrating festivals also helps us develop our love for Bhagwan and the Satpurush.</p>
+                      <p class="p text">Summer Shibirs can be considered a form of such celebrations. In Summer Shibir 2021, we explored what it means to perform guru bhakti by doing abhyas of Mahant Swami Maharaj’s life. In this way, diving deep into Mahant Swami Maharaj’s life helped us both realize how to perform pure guru bhakti and develop our love for Him. The seva performed by our karyakars in putting together this shibir at a local level was one of the reasons Summer Shibir 2021 was such a success. Indeed, this seva not only helped our balaks, balikas, kishores, and kishoris strengthen their connection with Maharaj and Swami, but it also was a form of a guru bhakti on the part of our karyakars. Let us strive to maintain that this same level of bhakti and seva as we prepare for our local Diwali celebrations!</p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="divider" src="https://baps.box.com/shared/static/akhyu9y1nlu11g8kcmk5zhop7xllztqw.png"></td>
+                  </tr>
+                  <tr>
+                    <td><img class="image spacing-top" style="margin-bottom: 0" src="https://baps.box.com/shared/static/63mv2v1nvb82ewhl3woxgo15n9qganed.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="header">
+                        <p class="header-title">The Power of Smruti</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="p text">Yogibapa was traveling from Ahmedabad to Mumbai by train and there was a stop scheduled in Anand. Upon hearing of this, Vinubhai made his way to the train station by 10:30 PM when Yogibapa got out of his train to meet with haribhakto. However, due to his reserved nature, Vinubhai stayed leaning against a wall doing darshan from afar. It was only when Mathurkaka told Yogibapa that Vinubhai came to do darshan that the guru and shishya met directly that day. Yogibapa made his way to Vinubhai and blessed him with dhaba; he then gave ashirvad and soon after got back on the train as Vinubhai gazed fixedly at his guru’s murti savouring the divine moment. The young Vinubhai would continue to do so for over a month by coming back to the same spot at the Anand train station and joyfully reminisce this smruti.</p>
+                      <p class="p text">The power of Swamishri's smruti allowed him to revisit this moment firsthand and experience the true anand and peace he felt on that divine day over and over again. We too can experience this bliss by actively remembering powerful moments or prasangs of our guru and do smruti. </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><img class="divider" src="https://baps.box.com/shared/static/r4ldi7alt6a6jg2k39wc27muh9szjhje.png"></td>
+                  </tr>
+                  <tr>
+                    <td><img class="image spacing-top" style="margin-bottom: 0" src="https://baps.box.com/shared/static/lr371l7gyig605zadvq4wt7faecyjiwk.jpg"></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div class="header">
+                        <p class="header-title">To Attain Wisdom</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p class="p text">To attain wisdom, approach the enlightened guru who fully understands me (Bhagwan). Bow to him, learn from him, and serve him.</p>
+                      <p class="p text">— Bhagwat Gita 4.43</p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="footer">
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                  <tbody>
+                    <tr>
+                      <td class="content-block"><img class="image" src="https://baps.box.com/shared/static/isakjjkqfw87mqt5gptwr2grfbf6xhnx.png"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </td>
+          <td style="width: 16px;">&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>
